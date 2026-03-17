@@ -68,6 +68,11 @@ Download the QR code image and decode it using an online tool.
 Decoded result :
 ![Nmap Scan Results](screenshot/qrencode.png)
 
+Credentials found:
+
+Username: userftp
+
+Password: ftpp@ssword
 
 
 
