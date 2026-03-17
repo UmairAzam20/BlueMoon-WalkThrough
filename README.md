@@ -44,6 +44,17 @@ Port	Service	Version
 
 80/tcp	HTTP	Apache httpd 2.4.38
 
+## Phase 2: Enumeration 
+Visit the web server on port 80. Nothing useful on the main page or source code.
+
+Directory Brute-forcing :
+
+```bash
+gobuster dir -u http://192.168.100.117 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x ,php,.html,.bak
+```
+Discovered directory: /hidden_text
+
+![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
 
 
 
