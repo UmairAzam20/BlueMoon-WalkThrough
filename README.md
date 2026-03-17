@@ -63,8 +63,10 @@ Discovered directory: /hidden_text
 ## Phase 3: Gaining Access
 1. QR Code Decoding
    
-Download the QR code image and decode it using an online tool:
-![Nmap Scan Results](screenshot/hidden_text.png)
+Download the QR code image and decode it using an online tool.
+
+Decoded result :
+![Nmap Scan Results](screenshot/qrencode.png)
 
 
 
