@@ -9,7 +9,7 @@ Author: Kirthik
 
 Difficulty: Easy 
 
-Goal: Get root! 
+Goal: Get root! (finds all 3 flag)
 
 Open ports: 21 (FTP), 22 (SSH), 80 (HTTP) 
 
@@ -212,18 +212,18 @@ Output :
 
 Tool	Purpose
 
-netdiscover / arp-scan	Network discovery
+1. netdiscover / arp-scan	Network discovery
 
-nmap	Port scanning
+2. nmap	Port scanning
 
-gobuster / dirb	Directory brute-forcing
+3. gobuster / dirb	Directory brute-forcing
 
-hydra	Password brute-forcing
+4. hydra	Password brute-forcing
 
-ftp	File transfer
+5. ftp	File transfer
 
-ssh	Remote access
+6. ssh	Remote access
 
-docker	Privilege escalation
+7. docker	Privilege escalation
 
 
