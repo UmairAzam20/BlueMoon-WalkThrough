@@ -74,5 +74,7 @@ Username: userftp
 
 Password: ftpp@ssword
 
+List and download files :
+![Nmap Scan Results](screenshot/qrencode.png)
 
 
