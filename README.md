@@ -9,7 +9,7 @@ Author: Kirthik
 
 Difficulty: Easy 
 
-Goal: Get root! (find all 3 flags) 
+Goal: Get root! 
 
 Open ports: 21 (FTP), 22 (SSH), 80 (HTTP) 
 
@@ -58,6 +58,12 @@ Discovered directory: /hidden_text
 
 2. Navigate to http://<target-ip>/hidden_text and click the "Thank You…" link to find a QR code image.
 
+![Nmap Scan Results](screenshot/hidden_text.png)
+
+## Phase 3: Gaining Access
+1. QR Code Decoding
+   
+Download the QR code image and decode it using an online tool:
 ![Nmap Scan Results](screenshot/hidden_text.png)
 
 
