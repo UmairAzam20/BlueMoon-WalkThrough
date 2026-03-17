@@ -20,9 +20,10 @@ Key techniques: Directory brute-forcing, QR code decoding, Hydra password cracki
 ```bash
 nmap -sn 192.168.100.0/24
 ```
-So we get several IP Address but the one i we need is the MAC Address that set in our VM.
+So we get several IP Address but the one we need is the MAC Address that set in our VM.
 which we get this:
-![Nmap Scan Results](screenshots/IpAddressBlueMoon.png)
+
+![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
 
 
 
