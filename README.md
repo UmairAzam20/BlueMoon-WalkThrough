@@ -47,7 +47,7 @@ Port	Service	Version
 ## Phase 2: Enumeration 
 Visit the web server on port 80. Nothing useful on the main page or source code.
 
-Directory Brute-forcing :
+1. Directory Brute-forcing :
 
 ```bash
 gobuster dir -u http://192.168.100.117 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x ,php,.html,.bak
@@ -56,7 +56,7 @@ Discovered directory: /hidden_text
 
 ![Nmap Scan Results](screenshot/enumeration.png)
 
-Navigate to http://<target-ip>/hidden_text and click the "Thank You…" link to find a QR code image.
+2. Navigate to http://<target-ip>/hidden_text and click the "Thank You…" link to find a QR code image.
 
 ![Nmap Scan Results](screenshot/hidden_text.png)
 
