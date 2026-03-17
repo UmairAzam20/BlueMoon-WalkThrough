@@ -33,7 +33,7 @@ Scan for open ports and services:
 ```bash
 nmap -sV -sC -Pn -vv 192.168.100.117
 ```
-![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
+![Nmap Scan Results](screenshot/portdiscovery.png)
 
 
 
