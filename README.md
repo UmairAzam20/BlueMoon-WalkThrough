@@ -160,5 +160,5 @@ sudo -u jerry /home/robin/project/feedback.sh
 # Enter Your Name: anything
 # Enter Feedback: /bin/bash
 ```
-![Nmap Scan Results](screenshot/firstflag.png)
+![Nmap Scan Results](screenshot/jerry.png)
 
