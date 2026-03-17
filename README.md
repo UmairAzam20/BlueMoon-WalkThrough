@@ -17,12 +17,22 @@ Key techniques: Directory brute-forcing, QR code decoding, Hydra password cracki
 
 ## Phase 1: Reconnaissance
 
+1. Network Discovery
+   
 ```bash
 nmap -sn 192.168.100.0/24
 ```
 So we get several IP Address but the one we need is the MAC Address that set in our VM.
 which we get this:
 
+![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
+
+ 2. Port Scanning
+Scan for open ports and services:
+
+```bash
+nmap -sV -sC -Pn -vv 192.168.100.117
+```
 ![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
 
 
