@@ -54,7 +54,7 @@ gobuster dir -u http://192.168.100.117 -w /usr/share/wordlists/dirbuster/directo
 ```
 Discovered directory: /hidden_text
 
-![Nmap Scan Results](screenshot/IpAddressBlueMoon.png)
+![Nmap Scan Results](screenshot/enumeration.png)
 
 
 
