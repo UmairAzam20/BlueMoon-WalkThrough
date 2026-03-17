@@ -163,3 +163,11 @@ sudo -u jerry /home/robin/project/feedback.sh
 ![Nmap Scan Results](screenshot/jerry.png)
 ![Nmap Scan Results](screenshot/jerrybash.png)
 
+4. Second Flag :
+
+```bash
+cd /home/jerry
+cat user2.txt
+# Fl4g{Y0ur34ch3du53r25uc355ful1y}
+```
+![Nmap Scan Results](screenshot/flag2.png)
