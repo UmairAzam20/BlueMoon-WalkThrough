@@ -102,3 +102,16 @@ Username: robin
 Password: k4rv3ndh4nh4ck3r
 
 ![Nmap Scan Results](screenshot/hydra.png)
+
+2.  SSH Access & First Flag
+   
+Login via SSH:
+
+```bash
+ssh robin@192.168.100.117
+```
+![Nmap Scan Results](screenshot/hydra.png)
+
+
+
+
