@@ -206,4 +206,24 @@ cat root.txt
 ```
 
 Output :
-![Nmap Scan Results](screenshot/flag2.png)
+![Nmap Scan Results](screenshot/rootflag.png)
+
+## Tools Used
+
+Tool	Purpose
+
+netdiscover / arp-scan	Network discovery
+
+nmap	Port scanning
+
+gobuster / dirb	Directory brute-forcing
+
+hydra	Password brute-forcing
+
+ftp	File transfer
+
+ssh	Remote access
+
+docker	Privilege escalation
+
+
