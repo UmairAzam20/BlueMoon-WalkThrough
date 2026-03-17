@@ -81,5 +81,6 @@ ls
 get information.txt
 get p_lists.txt
 ```
-
+information.txt :
+![Nmap Scan Results](screenshot/information_txt.png)
 
