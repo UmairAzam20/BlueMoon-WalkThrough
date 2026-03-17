@@ -56,6 +56,10 @@ Discovered directory: /hidden_text
 
 ![Nmap Scan Results](screenshot/enumeration.png)
 
+Navigate to http://<target-ip>/hidden_text and click the "Thank You…" link to find a QR code image.
+
+![Nmap Scan Results](screenshot/hidden_text.png)
+
 
 
 
