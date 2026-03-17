@@ -84,3 +84,6 @@ get p_lists.txt
 information.txt :
 ![Nmap Scan Results](screenshot/information_txt.png)
 
+p_lists.txt: Contains a list of potential passwords (leetspeak variations)
+![Nmap Scan Results](screenshot/p-list.png)
+
