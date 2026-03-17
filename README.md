@@ -37,8 +37,11 @@ nmap -sV -sC -Pn -vv 192.168.100.117
 Results :
 
 Port	Service	Version
+
 21/tcp	FTP	vsftpd 3.0.3
+
 22/tcp	SSH	OpenSSH 7.9p1
+
 80/tcp	HTTP	Apache httpd 2.4.38
 
 
