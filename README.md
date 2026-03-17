@@ -2,6 +2,7 @@
 BlueMoon: 2021 - A boot2root CTF challenge from VulnHub (Easy difficulty). Goal: Get root access and capture all flags.
 
 Key details about the machine:
+
 Release date: April 7, 2021 
 
 Author: Kirthik 
