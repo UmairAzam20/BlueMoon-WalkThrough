@@ -75,6 +75,11 @@ Username: userftp
 Password: ftpp@ssword
 
 List and download files :
-![Nmap Scan Results](screenshot/qrencode.png)
+
+```bash
+ls
+get information.txt
+get p_lists.txt
+```
 
 
